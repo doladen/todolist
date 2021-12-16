@@ -21,5 +21,19 @@ if len(myToDo) == 3:
   print("My To Do List")
   #PRINT LENGTH OF TO DO LIST
   print(f'{len(myToDo)} thing(s) left to do')
-#PRINT LIST USING FOR LOOP
-for task in 
+
+
+def addtolist(speedy):
+  myToDo.append(speedy)
+def removefromlist(speedy):
+  myToDo.remove(speedy)
+def checkthe
+
+myToDo =[] 
+addtolist("christmas shopping")
+addtolist("Make dinner")
+addtolist("christmas shopping")
+addtolist("Wrap gifts")
+removefromlist("christmas shopping")
+for task in myToDo:
+  print(task)
